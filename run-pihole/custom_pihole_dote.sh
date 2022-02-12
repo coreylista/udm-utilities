@@ -22,7 +22,7 @@ podman stop pihole
 podman rm pihole
 podman run -d --network dns --restart always \
     --name pihole \
-    -e TZ="America/Chicago" \
+    -e TZ="America/New York" \
     -v "/mnt/data/etc-pihole/:/etc/pihole/" \
     -v "/mnt/data/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/" \
     --dns=127.0.0.1 \
