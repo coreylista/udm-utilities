@@ -20,8 +20,8 @@ IPV4_GW="10.0.5.1/24"
 # IPv6 Also works with Prefix Delegation from your provider. The gateway is the
 # IP of br(VLAN) and you can pick any ip address within that subnet that dhcpv6
 # isn't serving
-IPV6_IP=""
-IPV6_GW=""
+IPV6_IP="fd3f:c04b:5187:7ab9::2"
+IPV6_GW="fd3f:c04b:5187:7ab9::1/64"
 
 # set this to the interface(s) on which you want DNS TCP/UDP port 53 traffic
 # re-routed through the DNS container. separate interfaces with spaces.
