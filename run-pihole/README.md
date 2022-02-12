@@ -23,7 +23,7 @@
 1. Copy [20-dns.conflist](../cni-plugins/20-dns.conflist) to /etc/cni/net.d.  This will create your podman macvlan network
 ```shell
 podman network create dns
-curl -L https://github.com/boostchicken-dev/udm-utilities/raw/master/cni-plugins/20-dns.conflist -o /etc/cni/net.d/dns.conflist
+curl -L https://github.com/coreylista/udm-utilities/raw/master/cni-plugins/20-dns.conflist -o /etc/cni/net.d/dns.conflist
 ```
 5. Copy [10-dns.sh](../dns-common/on_boot.d/10-dns.sh) to /mnt/data/on_boot.d and update its values to reflect your environment
 
